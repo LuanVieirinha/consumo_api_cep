@@ -4,8 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link  rel="stylesheet" href="./style/style.css">
+
 </head>
 <body>
+
+        <main>
+            <h3>Consumo da API ViaCep</h3>
+            <form id="formulariocep">
+                <div class="informa_cep">
+                    <label for="cep">Informe o cep</label>
+                    <input type="text" id="cep">
+                    <button type="submit" >Pesquisar</button>
+                </div>
+<hr>
+                <div class="dados">
+                    <label for="Logadouro">Logadouro</label>
+                    <input type="text" id="Logadouro" disabled>
+                               
+<hr>
+                    <label for="bairro">Bairro</label>
+                    <input type="text" id="bairro" disabled>
+<hr>
+                    <label for="localidade">Localidade</label>
+                    <input type="text" id="localidade" disabled>
+<hr>
+                    <label for="estado">UF</label>
+                    <input type="text" id="estado" disabled>
+<hr>
+                    <label for="regiao">Regiao</label>
+                    <input type="text" id="regiao" disabled>
+<hr>
+                    <label for="numero">Numero</label>
+                    <input type="text" id="numero" >
+<hr>
+                    <label for="complemento">Complemento</label>
+                    <input type="text" id="complemento">
+
+                </div>
+                
+                <button type="button">Enviar</button> 
+            </form>
+        
+        </main>
+
     <script src="./js/script.js"></script>
 
 </body>
